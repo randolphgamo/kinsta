@@ -1,0 +1,15 @@
+name: Kinsta CI Course Project
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  php-tests:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Test code for errors
+      run: php -l index.php
