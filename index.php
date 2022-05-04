@@ -1,1 +1,1 @@
-<?php echo "Hello World, using git!";   ?>
+<?php echo "Hello World, using git2!";   ?>
